@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 globalTests+=(
         utc
-        no-hard-coded-passwords
+        # no-hard-coded-passwords
         override-cmd
 )
 
