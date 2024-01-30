@@ -6,7 +6,7 @@ globalTests+=(
 )
 
 imageTests+=(
-	[eeacms/advisory-board-backend]='
+	[eeacms/insitu-backend]='
 		plone-basics
 		plone-site
 		plone-addons
