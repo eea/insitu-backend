@@ -1,6 +1,21 @@
 # Changelog
 
 
+## [backend-6](https://github.com/eea/insitu-backend/releases/tag/backend-6) - 2024-03-18T14:34:10Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.10-1 ~ 6.0.10-2 
+
+##### eeacms/plone-backend:[6.0.10-2](https://github.com/eea/plone-backend/releases/tag/6.0.10-2)
+###### Dependency updates
+
+###### [eea.kitkat](https://github.com/eea/eea.kitkat/releases): 7.0 ~ 8.0
+
+* Refactor: Move Version overview related code to eea.api.controlpanel
+ [avoinea - refs #264531]
+
+
 ## [backend-5](https://github.com/eea/insitu-backend/releases/tag/backend-5) - 2024-03-15T17:58:55Z
 
 ### Plone
