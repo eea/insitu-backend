@@ -1,6 +1,12 @@
 # Changelog
 
 
+## [backend-7](https://github.com/eea/insitu-backend/releases/tag/backend-7) - 2024-03-20T00:15:35Z
+
+### Internal
+
+- Update requirements.txt - [Ghiță Bizău -  [`19d5d45`](https://github.com/eea/insitu-backend/commit/19d5d458d88ca359f8900d3b85c0bf8a45274f5c)]
+
 ## [backend-6](https://github.com/eea/insitu-backend/releases/tag/backend-6) - 2024-03-18T14:34:10Z
 
 ### Plone
