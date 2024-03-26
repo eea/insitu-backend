@@ -1,6 +1,21 @@
 # Changelog
 
 
+## [backend-8](https://github.com/eea/insitu-backend/releases/tag/backend-8) - 2024-03-26T00:46:23Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.10-2 ~ 6.0.10-3 
+
+##### eeacms/plone-backend:[6.0.10-3](https://github.com/eea/plone-backend/releases/tag/6.0.10-3)
+###### Dependency updates
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.5 ~ 2.6
+
+* Change: updated profile for the "Biogeographical Regions" taxonomy
+ [alecghica refs #265225]
+
+
 ## [backend-7](https://github.com/eea/insitu-backend/releases/tag/backend-7) - 2024-03-20T00:15:35Z
 
 ### Internal
