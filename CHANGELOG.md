@@ -1,6 +1,12 @@
 # Changelog
 
 
+## [backend-9](https://github.com/eea/insitu-backend/releases/tag/backend-9) - 2024-03-28T00:17:00Z
+
+### Internal
+
+- Remove duplicate collective.exportimport - [Ghiță Bizău -  [`840a6f1`](https://github.com/eea/insitu-backend/commit/840a6f10aa715e2e629347d2ec35ac46bd42fe00)]
+
 ## [backend-8](https://github.com/eea/insitu-backend/releases/tag/backend-8) - 2024-03-26T00:46:23Z
 
 ### Plone
