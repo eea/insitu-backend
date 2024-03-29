@@ -1,6 +1,24 @@
 # Changelog
 
 
+## [backend-10](https://github.com/eea/insitu-backend/releases/tag/backend-10) - 2024-03-29T00:19:00Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.10-3 ~ 6.0.10-4 
+
+##### eeacms/plone-backend:[6.0.10-4](https://github.com/eea/plone-backend/releases/tag/6.0.10-4)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 3.2 ~ 3.4
+
+* Change: Develop typo
+ [alecghica]
+
+* Bug fix: fixed the ZMI styles
+ [alecghica refs #267310]
+
+
 ## [backend-9](https://github.com/eea/insitu-backend/releases/tag/backend-9) - 2024-03-28T00:17:00Z
 
 ### Internal
