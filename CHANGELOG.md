@@ -1,6 +1,30 @@
 # Changelog
 
 
+## [backend-11](https://github.com/eea/insitu-backend/releases/tag/backend-11) - 2024-04-03T23:46:24Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.10-4 ~ 6.0.10-5 
+
+##### eeacms/plone-backend:[6.0.10-5](https://github.com/eea/plone-backend/releases/tag/6.0.10-5)
+###### Dependency updates
+
+###### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 3.5 ~ 3.6
+
+* Change: Develop
+ [alecghica]
+
+### Dependency updates
+
+#### New packages
+
+##### [eea.insitu.policy](https://github.com/eea/eea.insitu.policy): 1.3
+
+### Internal
+
+- added eea.insitu.policy addon - [Alexandru Ghica -  [`9f2d8d0`](https://github.com/eea/insitu-backend/commit/9f2d8d0b2f14fc3d32c8fdeb256918f6ac5be228)]
+
 ## [backend-10](https://github.com/eea/insitu-backend/releases/tag/backend-10) - 2024-03-29T00:19:00Z
 
 ### Plone
