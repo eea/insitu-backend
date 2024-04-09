@@ -1,6 +1,21 @@
 # Changelog
 
 
+## [backend-12](https://github.com/eea/insitu-backend/releases/tag/backend-12) - 2024-04-09T23:48:17Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.10-5 ~ 6.0.10-6 
+
+##### eeacms/plone-backend:[6.0.10-6](https://github.com/eea/plone-backend/releases/tag/6.0.10-6)
+###### Dependency updates
+
+###### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 3.6 ~ 3.7
+
+* Change: updated Organizations taxonomy, added EMA.
+ [alecghica refs #268171]
+
+
 ## [backend-11](https://github.com/eea/insitu-backend/releases/tag/backend-11) - 2024-04-03T23:46:24Z
 
 ### Plone
