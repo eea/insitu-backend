@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [backend-13](https://github.com/eea/insitu-backend/releases/tag/backend-13) - 2024-04-10T23:21:32Z
+
+### Dependency updates
+
+##### [eea.insitu.policy](https://github.com/eea/eea.insitu.policy/releases): 1.3 ~ 1.4
+
+* Change: dummy release
+  [alecghica]
+
+
 ## [backend-12](https://github.com/eea/insitu-backend/releases/tag/backend-12) - 2024-04-09T23:48:17Z
 
 ### Plone
