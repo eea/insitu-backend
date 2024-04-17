@@ -1,6 +1,19 @@
 # Changelog
 
 
+## [6.0.10-1](https://github.com/eea/insitu-backend/releases/tag/6.0.10-1) - 2024-04-17T13:13:04Z
+
+### Dependency updates
+
+##### [eea.insitu.policy](https://github.com/eea/eea.insitu.policy/releases): 1.4 ~ 1.5
+
+* Change: Report content type and initial import from csv content.
+  [GhitaB]
+
+### Internal
+
+- style: fix release script versioning - [valentinab25 -  [`f96002b`](https://github.com/eea/insitu-backend/commit/f96002b4921f3bcddb0bdbcded511049f236e168)]
+
 ## [backend-14](https://github.com/eea/insitu-backend/releases/tag/backend-14) - 2024-04-16T23:44:58Z
 
 ### Plone
