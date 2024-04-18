@@ -1,6 +1,25 @@
 # Changelog
 
 
+## [6.0.10-4](https://github.com/eea/insitu-backend/releases/tag/6.0.10-4) - 2024-04-18T23:16:05Z
+
+### Dependency updates
+
+##### [eea.insitu.policy](https://github.com/eea/eea.insitu.policy/releases): 1.4 ~ 1.7
+
+* Change: TEST Update README.rst
+  [GhitaB]
+
+* Change: Add catalog indexes for insitu.report
+  [GhitaB]
+
+* Change: Report content type and initial import from csv content.
+  [GhitaB]
+
+### Internal
+
+- style: fix release script versioning - [valentinab25 -  [`f96002b`](https://github.com/eea/insitu-backend/commit/f96002b4921f3bcddb0bdbcded511049f236e168)]
+
 ## [6.0.10-2](https://github.com/eea/insitu-backend/releases/tag/6.0.10-2) - 2024-04-17T23:16:50Z
 
 ### Dependency updates
