@@ -1,2 +1,2 @@
 -f https://eggrepo.eea.europa.eu/simple/
-eea.insitu.policy==1.5
+eea.insitu.policy==1.6
