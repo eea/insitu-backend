@@ -1,6 +1,42 @@
 # Changelog
 
 
+## [6.0.10-19](https://github.com/eea/insitu-backend/releases/tag/6.0.10-19) - 2024-04-26T23:18:55Z
+
+### Dependency updates
+
+##### [eea.insitu.policy](https://github.com/eea/eea.insitu.policy/releases): 1.4 ~ 2.3
+
+* Change: CIS2 Data Providers behavior (WIP) [GhitaB]
+
+* Change: Update creation date of reports
+  [GhitaB]
+
+* Change: Report layout. Components, Themes multi-select.
+  [GhitaB]
+
+* Change: Migrate date for reports from old website related files.
+  [GhitaB]
+
+* Change: Develop
+  [GhitaB]
+
+* Change: Add Copernicus  Themes and Components behaviors
+  [GhitaB]
+
+* Change: TEST Update README.rst
+  [GhitaB]
+
+* Change: Add catalog indexes for insitu.report
+  [GhitaB]
+
+* Change: Report content type and initial import from csv content.
+  [GhitaB]
+
+### Internal
+
+- style: fix release script versioning - [valentinab25 -  [`f96002b`](https://github.com/eea/insitu-backend/commit/f96002b4921f3bcddb0bdbcded511049f236e168)]
+
 ## [6.0.10-18](https://github.com/eea/insitu-backend/releases/tag/6.0.10-18) - 2024-04-25T23:17:47Z
 
 ### Dependency updates
