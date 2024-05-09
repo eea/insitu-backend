@@ -1,6 +1,21 @@
 # Changelog
 
 
+## [6.0.10-32](https://github.com/eea/insitu-backend/releases/tag/6.0.10-32) - 2024-05-09T23:46:33Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.10-7 ~ 6.0.10-8 
+
+##### eeacms/plone-backend:[6.0.10-8](https://github.com/eea/plone-backend/releases/tag/6.0.10-8)
+###### Dependency updates
+
+###### [eea.kitkat](https://github.com/eea/eea.kitkat/releases): 8.0 ~ 8.1
+
+* Change: Develop
+ [alecghica]
+
+
 ## [6.0.10-30](https://github.com/eea/insitu-backend/releases/tag/6.0.10-30) - 2024-05-06T23:18:06Z
 
 ### Dependency updates
