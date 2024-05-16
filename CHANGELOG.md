@@ -1,6 +1,28 @@
 # Changelog
 
 
+## [6.0.10-35](https://github.com/eea/insitu-backend/releases/tag/6.0.10-35) - 2024-05-16T23:48:54Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.10-8 ~ 6.0.10-9 
+
+##### eeacms/plone-backend:[6.0.10-9](https://github.com/eea/plone-backend/releases/tag/6.0.10-9)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 3.4 ~ 3.5
+
+* Change: feat(serializer): added effective to the default_metadata_fields
+ [ichim-david]
+
+### Dependency updates
+
+##### [eea.insitu.policy](https://github.com/eea/eea.insitu.policy/releases): 2.8 ~ 2.9
+
+* Change: Add Use case content type. Update types.
+  [GhitaB]
+
+
 ## [6.0.10-32](https://github.com/eea/insitu-backend/releases/tag/6.0.10-32) - 2024-05-09T23:46:33Z
 
 ### Plone
