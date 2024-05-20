@@ -1,6 +1,40 @@
 # Changelog
 
 
+## [6.0.11-1](https://github.com/eea/insitu-backend/releases/tag/6.0.11-1) - 2024-05-20T23:49:10Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.10-9 ~ 6.0.11-1 
+
+##### eeacms/plone-backend:[6.0.11-1](https://github.com/eea/plone-backend/releases/tag/6.0.11-1)
+###### Plone
+
+###### Upgrade 6.0.10 ~ 6.0.11.1 
+
+
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 3.5 ~ 4.0
+
+* Feature: Migrate teaserGrid to gridBlock structure from Volto 17 core
+ [avoinea - refs #265726]
+
+###### [elastic-transport](https://pypi.org/project/elastic-transport/#changelog): 8.12.0 ~ 8.13.0
+
+###### [elasticsearch](https://pypi.org/project/elasticsearch/#changelog): 8.12.1 ~ 8.13.1
+
+###### [eventlet](https://pypi.org/project/eventlet/#changelog): 0.35.2 ~ 0.36.1
+
+###### [sentry-sdk](https://pypi.org/project/sentry-sdk/#changelog): 1.42.0 ~ 1.45.0
+
+###### [yafowil.bootstrap](https://pypi.org/project/yafowil.bootstrap/#changelog): 2.0.0a1 ~ 2.0.0a2
+
+###### Internal
+
+- Release Plone 6.0.11.1 - [alin - [`88ea69a`](https://github.com/eea/plone-backend/commit/88ea69ad37771b69b9cd4ea97eb2cce88972a153)]
+
+
 ## [6.0.10-35](https://github.com/eea/insitu-backend/releases/tag/6.0.10-35) - 2024-05-16T23:48:54Z
 
 ### Plone
