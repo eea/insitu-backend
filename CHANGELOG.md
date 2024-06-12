@@ -1,6 +1,22 @@
 # Changelog
 
 
+## [6.0.11-9](https://github.com/eea/insitu-backend/releases/tag/6.0.11-9) - 2024-06-12T23:16:48Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.11-3 ~ 6.0.11-4 
+
+##### eeacms/plone-backend:[6.0.11-4](https://github.com/eea/plone-backend/releases/tag/6.0.11-4)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 4.1 ~ 5.0
+
+* Breaking: Requires `plone.volto >= 4.1.0`
+* Change: Add upgrade step to add block_types index to the Plone catalog
+ [avoinea - refs #271233]
+
+
 ## [6.0.11-8](https://github.com/eea/insitu-backend/releases/tag/6.0.11-8) - 2024-06-04T23:19:58Z
 
 ### Plone
