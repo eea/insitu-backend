@@ -1,2 +1,3 @@
 -f https://eggrepo.eea.europa.eu/simple/
 eea.insitu.policy==3.5
+eea.api.dataconnector==10.3
