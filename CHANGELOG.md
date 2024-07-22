@@ -1,6 +1,28 @@
 # Changelog
 
 
+## [6.0.11-14](https://github.com/eea/insitu-backend/releases/tag/6.0.11-14) - 2024-07-22T11:24:56Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.11-6 ~ 6.0.11-7 
+
+##### eeacms/plone-backend:[6.0.11-7](https://github.com/eea/plone-backend/releases/tag/6.0.11-7)
+###### Dependency updates
+
+###### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 3.8 ~ 4.0
+
+* Change: fix(upgrade-script): add try except for KeyError brain.getObjects()
+ [ichim-david]
+* Fix: Other organisations default value
+ [iugin]
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 5.0 ~ 5.1
+
+* Change: Release
+ [avoinea]
+
+
 ## [6.0.11-11](https://github.com/eea/insitu-backend/releases/tag/6.0.11-11) - 2024-06-19T23:48:23Z
 
 ### Plone
