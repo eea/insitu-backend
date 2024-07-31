@@ -1,6 +1,18 @@
 # Changelog
 
 
+## [6.0.11-18](https://github.com/eea/insitu-backend/releases/tag/6.0.11-18) - 2024-07-31T23:50:01Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.11-9 ~ 6.0.11-10 
+
+##### eeacms/plone-backend:[6.0.11-10](https://github.com/eea/plone-backend/releases/tag/6.0.11-10)
+###### Internal
+
+- fix: Release plone.namedfile==6.3.1 - refs #272819 - [alin - [`716a725`](https://github.com/eea/plone-backend/commit/716a72537dcc66056379c723772e4e5b104ce138)]
+
+
 ## [6.0.11-17](https://github.com/eea/insitu-backend/releases/tag/6.0.11-17) - 2024-07-29T23:48:35Z
 
 ### Plone
