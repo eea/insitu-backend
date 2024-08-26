@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.11-21](https://github.com/eea/insitu-backend/releases/tag/6.0.11-21) - 2024-08-26T23:22:27Z
+
+### Dependency updates
+
+##### [eea.insitu.policy](https://github.com/eea/eea.insitu.policy/releases): 3.6 ~ 3.7
+
+* Change: Refs #273185 - Optimize data providers table
+  [GhitaB]
+
+
 ## [6.0.11-20](https://github.com/eea/insitu-backend/releases/tag/6.0.11-20) - 2024-08-24T23:16:44Z
 
 ### Plone
