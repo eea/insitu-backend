@@ -1,6 +1,13 @@
 # Changelog
 
 
+## [6.0.11-22](https://github.com/eea/insitu-backend/releases/tag/6.0.11-22) - 2024-09-16T23:15:45Z
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://pypi.org/project/eea.api.dataconnector/#changelog): 10.3 ~ 10.4
+
+
 ## [6.0.11-21](https://github.com/eea/insitu-backend/releases/tag/6.0.11-21) - 2024-08-26T23:22:27Z
 
 ### Dependency updates
