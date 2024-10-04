@@ -1,6 +1,21 @@
 # Changelog
 
 
+## [6.0.11-23](https://github.com/eea/insitu-backend/releases/tag/6.0.11-23) - 2024-10-04T10:12:31Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.11-12 ~ 6.0.11-13 
+
+##### eeacms/plone-backend:[6.0.11-13](https://github.com/eea/plone-backend/releases/tag/6.0.11-13)
+###### Dependency updates
+
+###### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 4.2 ~ 4.3
+
+* Change: Fix other organisations metadata
+ [avoinea]
+
+
 ## [6.0.11-22](https://github.com/eea/insitu-backend/releases/tag/6.0.11-22) - 2024-09-16T23:15:45Z
 
 ### Dependency updates
