@@ -1,6 +1,18 @@
 # Changelog
 
 
+## [6.0.11-25](https://github.com/eea/insitu-backend/releases/tag/6.0.11-25) - 2024-10-08T16:16:49Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.11-14 ~ 6.0.11-15 
+
+##### eeacms/plone-backend:[6.0.11-15](https://github.com/eea/plone-backend/releases/tag/6.0.11-15)
+###### Internal
+
+- Upgrade to plone.volto 4.4.3 in order to fix #278170 - [alin - [`4f8a79b`](https://github.com/eea/plone-backend/commit/4f8a79b93b75c63c4012270f9adecef22d68b784)]
+
+
 ## [6.0.11-24](https://github.com/eea/insitu-backend/releases/tag/6.0.11-24) - 2024-10-08T12:02:00Z
 
 ### Plone
