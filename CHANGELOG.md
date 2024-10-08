@@ -1,6 +1,139 @@
 # Changelog
 
 
+## [6.0.13-1](https://github.com/eea/insitu-backend/releases/tag/6.0.13-1) - 2024-10-08T23:47:55Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.11-15 ~ 6.0.13-1 
+
+##### eeacms/plone-backend:[6.0.13-1](https://github.com/eea/plone-backend/releases/tag/6.0.13-1)
+###### Plone
+
+###### Upgrade 6.0.11.1 ~ 6.0.13 
+
+* Plone [6.0.13](https://plone.org/download/releases/6.0.13)
+* Plone [6.0.12](https://plone.org/download/releases/6.0.12)
+* Plone [6.0.11](https://plone.org/download/releases/6.0.11)
+* Plone [6.0.10](https://plone.org/download/releases/6.0.10)
+* Plone [6.0.9](https://plone.org/download/releases/6.0.9)
+* Plone [6.0.8](https://plone.org/download/releases/6.0.8)
+* Plone [6.0.7](https://plone.org/download/releases/6.0.7)
+* Plone [6.0.6](https://plone.org/download/releases/6.0.6)
+* Plone [6.0.5](https://plone.org/download/releases/6.0.5)
+* Plone [6.0.4](https://plone.org/download/releases/6.0.4)
+* Plone [6.0.3](https://plone.org/download/releases/6.0.3)
+* Plone [6.0.2](https://plone.org/download/releases/6.0.2)
+* Plone [6.0.1](https://plone.org/download/releases/6.0.1)
+* Plone [6.0.0](https://plone.org/download/releases/6.0.0)
+* Plone [6.0.0rc2](https://plone.org/download/releases/6.0.0rc2)
+* Plone [6.0.0rc1](https://plone.org/download/releases/6.0.0rc1)
+* Plone [6.0.0b3](https://plone.org/download/releases/6.0.0b3)
+* Plone [6.0.0b2](https://plone.org/download/releases/6.0.0b2)
+* Plone [6.0.0b1](https://plone.org/download/releases/6.0.0b1)
+* Plone [6.0.0a6](https://plone.org/download/releases/6.0.0a6)
+* Plone [6.0.0a5](https://plone.org/download/releases/6.0.0a5)
+* Plone [6.0.0a4](https://plone.org/download/releases/6.0.0a4)
+* Plone [6.0.0a3](https://plone.org/download/releases/6.0.0a3)
+* Plone [6.0.0a2](https://plone.org/download/releases/6.0.0a2)
+* Plone [6.0.0a1](https://plone.org/download/releases/6.0.0a1)
+* Plone [6.0.0a1.dev0](https://plone.org/download/releases/6.0.0a1.dev0)
+* Plone [5.2.15](https://plone.org/download/releases/5.2.15)
+* Plone [5.2.14](https://plone.org/download/releases/5.2.14)
+* Plone [5.2.13](https://plone.org/download/releases/5.2.13)
+* Plone [5.2.12](https://plone.org/download/releases/5.2.12)
+* Plone [5.2.11](https://plone.org/download/releases/5.2.11)
+* Plone [5.2.10](https://plone.org/download/releases/5.2.10)
+* Plone [5.2.9](https://plone.org/download/releases/5.2.9)
+* Plone [5.2.8](https://plone.org/download/releases/5.2.8)
+* Plone [5.2.7](https://plone.org/download/releases/5.2.7)
+* Plone [5.2.6](https://plone.org/download/releases/5.2.6)
+* Plone [5.2.5](https://plone.org/download/releases/5.2.5)
+* Plone [5.2.4](https://plone.org/download/releases/5.2.4)
+* Plone [5.2.3](https://plone.org/download/releases/5.2.3)
+* Plone [5.2.2](https://plone.org/download/releases/5.2.2)
+* Plone [5.2.1](https://plone.org/download/releases/5.2.1)
+* Plone [5.2.0](https://plone.org/download/releases/5.2.0)
+* Plone [5.2rc5](https://plone.org/download/releases/5.2rc5)
+* Plone [5.2rc4](https://plone.org/download/releases/5.2rc4)
+* Plone [5.2rc3](https://plone.org/download/releases/5.2rc3)
+* Plone [5.2rc2](https://plone.org/download/releases/5.2rc2)
+* Plone [5.2rc1](https://plone.org/download/releases/5.2rc1)
+* Plone [5.2b1](https://plone.org/download/releases/5.2b1)
+* Plone [5.2a2](https://plone.org/download/releases/5.2a2)
+* Plone [5.2a1](https://plone.org/download/releases/5.2a1)
+* Plone [5.1.7](https://plone.org/download/releases/5.1.7)
+* Plone [5.1.6](https://plone.org/download/releases/5.1.6)
+* Plone [5.1.5](https://plone.org/download/releases/5.1.5)
+* Plone [5.1.4](https://plone.org/download/releases/5.1.4)
+* Plone [5.1.3](https://plone.org/download/releases/5.1.3)
+* Plone [5.1.2](https://plone.org/download/releases/5.1.2)
+* Plone [5.1.1](https://plone.org/download/releases/5.1.1)
+* Plone [5.1.0](https://plone.org/download/releases/5.1.0)
+* Plone [5.1rc2](https://plone.org/download/releases/5.1rc2)
+* Plone [5.1rc1](https://plone.org/download/releases/5.1rc1)
+* Plone [5.1b4](https://plone.org/download/releases/5.1b4)
+* Plone [5.1b3](https://plone.org/download/releases/5.1b3)
+* Plone [5.1b2](https://plone.org/download/releases/5.1b2)
+* Plone [5.1b1](https://plone.org/download/releases/5.1b1)
+* Plone [5.1a2](https://plone.org/download/releases/5.1a2)
+* Plone [5.1a1](https://plone.org/download/releases/5.1a1)
+* Plone [5.0.10](https://plone.org/download/releases/5.0.10)
+* Plone [5.0.9](https://plone.org/download/releases/5.0.9)
+* Plone [5.0.8](https://plone.org/download/releases/5.0.8)
+* Plone [5.0.7](https://plone.org/download/releases/5.0.7)
+* Plone [5.0.6](https://plone.org/download/releases/5.0.6)
+* Plone [5.0.5](https://plone.org/download/releases/5.0.5)
+* Plone [5.0.4](https://plone.org/download/releases/5.0.4)
+* Plone [5.0.3](https://plone.org/download/releases/5.0.3)
+* Plone [5.0.2](https://plone.org/download/releases/5.0.2)
+* Plone [5.0.1](https://plone.org/download/releases/5.0.1)
+* Plone [5.0](https://plone.org/download/releases/5.0)
+* Plone [5.0rc3](https://plone.org/download/releases/5.0rc3)
+* Plone [5.0rc2](https://plone.org/download/releases/5.0rc2)
+* Plone [5.0rc1](https://plone.org/download/releases/5.0rc1)
+* Plone [5.0b4](https://plone.org/download/releases/5.0b4)
+* Plone [5.0b3](https://plone.org/download/releases/5.0b3)
+* Plone [5.0b2](https://plone.org/download/releases/5.0b2)
+* Plone [5.0b1](https://plone.org/download/releases/5.0b1)
+* Plone [5.0a3](https://plone.org/download/releases/5.0a3)
+* Plone [5.0a2](https://plone.org/download/releases/5.0a2)
+* Plone [4.3.20](https://plone.org/download/releases/4.3.20)
+* Plone [4.3.19](https://plone.org/download/releases/4.3.19)
+* Plone [4.3.18](https://plone.org/download/releases/4.3.18)
+* Plone [4.3.17](https://plone.org/download/releases/4.3.17)
+* Plone [4.3.16](https://plone.org/download/releases/4.3.16)
+* Plone [4.3.15](https://plone.org/download/releases/4.3.15)
+* Plone [4.3.14](https://plone.org/download/releases/4.3.14)
+* Plone [4.3.13](https://plone.org/download/releases/4.3.13)
+
+###### Dependency updates
+
+###### [Authomatic](https://pypi.org/project/Authomatic/#changelog): 1.2.1 ~ 1.3.0
+
+###### [dnspython](https://pypi.org/project/dnspython/#changelog): 2.6.1 ~ 2.7.0
+
+###### [elastic-transport](https://pypi.org/project/elastic-transport/#changelog): 8.13.0 ~ 8.15.0
+
+###### [elasticsearch](https://pypi.org/project/elasticsearch/#changelog): 8.13.1 ~ 8.15.1
+
+###### [eventlet](https://pypi.org/project/eventlet/#changelog): 0.36.1 ~ 0.37.0
+
+###### [greenlet](https://pypi.org/project/greenlet/#changelog): 3.0.3 ~ 3.1.1
+
+###### [ijson](https://pypi.org/project/ijson/#changelog): 3.2.3 ~ 3.3.0
+
+###### New packages
+
+###### [pyasn1](https://pypi.org/project/pyasn1/#changelog): 0.4.1
+
+###### [pyasn1-modules](https://pypi.org/project/pyasn1-modules/#changelog): 0.4.1
+
+###### Internal
+
+- feat: Upgrade to Plone 6.0.13 - [alin - [`021a78d`](https://github.com/eea/plone-backend/commit/021a78defa9a1392224cc3d234e90c7be53dfc26)]
+
+
 ## [6.0.11-25](https://github.com/eea/insitu-backend/releases/tag/6.0.11-25) - 2024-10-08T16:16:49Z
 
 ### Plone
