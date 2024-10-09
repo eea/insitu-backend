@@ -1,6 +1,21 @@
 # Changelog
 
 
+## [6.0.13-2](https://github.com/eea/insitu-backend/releases/tag/6.0.13-2) - 2024-10-09T23:47:27Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.13-1 ~ 6.0.13-2 
+
+##### eeacms/plone-backend:[6.0.13-2](https://github.com/eea/plone-backend/releases/tag/6.0.13-2)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 5.3 ~ 5.4
+
+* Fix: Create a content upgrade script to fix SVGs display 
+ [@dobri1408 - refs #276995]
+
+
 ## [6.0.13-1](https://github.com/eea/insitu-backend/releases/tag/6.0.13-1) - 2024-10-08T23:47:55Z
 
 ### Plone
