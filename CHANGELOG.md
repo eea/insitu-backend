@@ -1,6 +1,24 @@
 # Changelog
 
 
+## [6.0.13-3](https://github.com/eea/insitu-backend/releases/tag/6.0.13-3) - 2024-10-15T23:47:52Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.13-2 ~ 6.0.13-3 
+
+##### eeacms/plone-backend:[6.0.13-3](https://github.com/eea/plone-backend/releases/tag/6.0.13-3)
+###### Dependency updates
+
+###### New packages
+
+###### [collective.regenv](https://pypi.org/project/collective.regenv/#changelog): 1.0.0
+
+###### Internal
+
+- Add collective.regenv 1.0.0 - refs #270766 - [Alin Voinea - [`eb10bfa`](https://github.com/eea/plone-backend/commit/eb10bfa30e666f76386a4c6862aeef52b6835915)]
+
+
 ## [6.0.13-2](https://github.com/eea/insitu-backend/releases/tag/6.0.13-2) - 2024-10-09T23:47:27Z
 
 ### Plone
