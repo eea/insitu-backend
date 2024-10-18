@@ -1,6 +1,21 @@
 # Changelog
 
 
+## [6.0.13-5](https://github.com/eea/insitu-backend/releases/tag/6.0.13-5) - 2024-10-18T23:50:16Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.13-4 ~ 6.0.13-5 
+
+##### eeacms/plone-backend:[6.0.13-5](https://github.com/eea/plone-backend/releases/tag/6.0.13-5)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 5.4 ~ 5.5
+
+* Change: Fix broken brain error at the upgrade svg step - refs #276995
+ [avoinea]
+
+
 ## [6.0.13-4](https://github.com/eea/insitu-backend/releases/tag/6.0.13-4) - 2024-10-17T23:47:03Z
 
 ### Plone
