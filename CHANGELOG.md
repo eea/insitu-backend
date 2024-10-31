@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.13-7](https://github.com/eea/insitu-backend/releases/tag/6.0.13-7) - 2024-10-31T00:14:55Z
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 10.6 ~ 11.0
+
+* Change: Refactor Visualisation serializers
+  [razvanMiu - refs #274326]
+
+
 ## [6.0.13-6](https://github.com/eea/insitu-backend/releases/tag/6.0.13-6) - 2024-10-21T23:17:04Z
 
 ### Dependency updates
