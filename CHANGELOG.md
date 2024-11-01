@@ -1,6 +1,18 @@
 # Changelog
 
 
+## [6.0.13-8](https://github.com/eea/insitu-backend/releases/tag/6.0.13-8) - 2024-11-01T00:45:59Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.13-5 ~ 6.0.13-6 
+
+##### eeacms/plone-backend:[6.0.13-6](https://github.com/eea/plone-backend/releases/tag/6.0.13-6)
+###### Internal
+
+- Release plone.restapi 9.8.2 - refs #278606 - [alin - [`52f62e1`](https://github.com/eea/plone-backend/commit/52f62e155b4c3f3c1870f3ecc46b13e7ecd35d1c)]
+
+
 ## [6.0.13-7](https://github.com/eea/insitu-backend/releases/tag/6.0.13-7) - 2024-10-31T00:14:55Z
 
 ### Dependency updates
