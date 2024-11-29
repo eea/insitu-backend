@@ -1,6 +1,33 @@
 # Changelog
 
 
+## [6.0.13-11](https://github.com/eea/insitu-backend/releases/tag/6.0.13-11) - 2024-11-29T00:48:13Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.13-8 ~ 6.0.13-9 
+
+##### eeacms/plone-backend:[6.0.13-9](https://github.com/eea/plone-backend/releases/tag/6.0.13-9)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 5.5 ~ 5.8
+
+* Feature: added getObjSize info for File portal_type used to get file size information
+ [ichim-david - refs #280463]
+* Bug fix: fixed title of the initial navigation item when `side_title_nav` isn't set 
+ [ichim-david - refs #280463]
+
+* Change: Improve svg upgrade step to know which svgs are fixed and not revisit them
+ [avoinea]
+
+* Feature: customized actions endpoint to allow passing of props to the
+ actions endpoint
+ [ichim-david - refs #271001]
+* Feature: customized breadcrumbs endpoint to add portal_type info to the
+ items served by the breadcrumbs endpoint
+ [ichim-david - refs #271001]
+
+
 ## [6.0.13-10](https://github.com/eea/insitu-backend/releases/tag/6.0.13-10) - 2024-11-14T00:46:26Z
 
 ### Plone
