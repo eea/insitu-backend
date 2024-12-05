@@ -1,6 +1,23 @@
 # Changelog
 
 
+## [6.0.13-14](https://github.com/eea/insitu-backend/releases/tag/6.0.13-14) - 2024-12-05T20:43:01Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.13-9 ~ 6.0.13-10 
+
+##### eeacms/plone-backend:[6.0.13-10](https://github.com/eea/plone-backend/releases/tag/6.0.13-10)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 5.8 ~ 6.0
+
+* Change: Fix plone.app.vocabularies.Users to work with Creators and Contributors Field
+ [avoinea - refs #274362]
+* Fix: Context Navigation title becoming undefined on Edit when deleting a manually added title
+ [ichim-david - refs #280463]
+
+
 ## [6.0.13-11](https://github.com/eea/insitu-backend/releases/tag/6.0.13-11) - 2024-11-29T00:48:13Z
 
 ### Plone
