@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.13-15](https://github.com/eea/insitu-backend/releases/tag/6.0.13-15) - 2024-12-07T00:17:34Z
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 11.0 ~ 11.1
+
+* Change: Add serializer/deserializer for JSONField, ref #281589
+  [razvanMiu]
+
+
 ## [6.0.13-14](https://github.com/eea/insitu-backend/releases/tag/6.0.13-14) - 2024-12-05T20:43:01Z
 
 ### Plone
