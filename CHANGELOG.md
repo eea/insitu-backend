@@ -1,6 +1,25 @@
 # Changelog
 
 
+## [6.0.13-16](https://github.com/eea/insitu-backend/releases/tag/6.0.13-16) - 2024-12-12T00:48:58Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.13-10 ~ 6.0.13-11 
+
+##### eeacms/plone-backend:[6.0.13-11](https://github.com/eea/plone-backend/releases/tag/6.0.13-11)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 6.0 ~ 6.1
+
+* Fix: large query on context navigation when on layout or add new item.
+ We return no results when we have the `Additional files` variation set
+ since it has potential to have a very large number of items.
+ [ichim-david - refs #280463]
+* Feature: Add `Language` querystring field in order to be able to filter by language in Search block
+ [avoinea - refs #281503]
+
+
 ## [6.0.13-15](https://github.com/eea/insitu-backend/releases/tag/6.0.13-15) - 2024-12-07T00:17:34Z
 
 ### Dependency updates
