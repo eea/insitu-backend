@@ -1,6 +1,32 @@
 # Changelog
 
 
+## [6.0.13-17](https://github.com/eea/insitu-backend/releases/tag/6.0.13-17) - 2025-01-30T19:24:34Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.13-11 ~ 6.0.13-12 
+
+##### eeacms/plone-backend:[6.0.13-12](https://github.com/eea/plone-backend/releases/tag/6.0.13-12)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 6.1 ~ 6.2
+
+* Fix: Add serializer for slate and html blocks refs
+ [dobri1408 - refs #282435]
+* Feature: add block transformer for contextNavigation
+ [nileshgulia1 - refs #282065]
+* Feature: add block transformer for versions
+ [nileshgulia1 - refs #282065]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 11.1 ~ 11.2
+
+* Change: Upgrade step to make provider url use resolve uid - refs #279158
+  [avoinea]
+
+
 ## [6.0.13-16](https://github.com/eea/insitu-backend/releases/tag/6.0.13-16) - 2024-12-12T00:48:58Z
 
 ### Plone
