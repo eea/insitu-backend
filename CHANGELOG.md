@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.13-18](https://github.com/eea/insitu-backend/releases/tag/6.0.13-18) - 2025-02-04T00:16:35Z
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 11.2 ~ 11.3
+
+* Change: Disable transforms when serving html for flourish
+  [tiberiuichim]
+
+
 ## [6.0.13-17](https://github.com/eea/insitu-backend/releases/tag/6.0.13-17) - 2025-01-30T19:24:34Z
 
 ### Plone
