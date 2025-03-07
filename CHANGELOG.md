@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.13-22](https://github.com/eea/insitu-backend/releases/tag/6.0.13-22) - 2025-03-07T00:15:51Z
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 11.4 ~ 11.5
+
+* Change: Don't remove embed_content block data
+  [razvanMiu]
+
+
 ## [6.0.13-21](https://github.com/eea/insitu-backend/releases/tag/6.0.13-21) - 2025-02-28T16:27:55Z
 
 ### Plone
