@@ -1,4 +1,4 @@
-FROM eeacms/plone-backend:6.0.13-18
+FROM eeacms/plone-backend:6.0.13-19
 #ENV PROFILES="eea.insitu.policy:default"
 
 COPY requirements.txt constraints.txt /app/
