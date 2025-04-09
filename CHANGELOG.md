@@ -1,6 +1,30 @@
 # Changelog
 
 
+## [6.0.15-1](https://github.com/eea/insitu-backend/releases/tag/6.0.15-1) - 2025-04-09T16:16:28Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.14-1 ~ 6.0.15-1 
+
+##### eeacms/plone-backend:[6.0.15-1](https://github.com/eea/plone-backend/releases/tag/6.0.15-1)
+###### Plone
+
+###### Upgrade 6.0.14 ~ 6.0.15 
+
+* Plone [6.0.15](https://plone.org/download/releases/6.0.15)
+* Plone [6.0.15rc2](https://plone.org/download/releases/6.0.15rc2)
+* Plone [6.0.15rc1](https://plone.org/download/releases/6.0.15rc1)
+
+###### Dependency updates
+
+###### [pas.plugins.authomatic](https://pypi.org/project/pas.plugins.authomatic/#changelog): 1.4.0 ~ 2.0.0rc2
+
+###### Internal
+
+- Release Plone 6.0.15 - [Alin Voinea - [`f94d45e`](https://github.com/eea/plone-backend/commit/f94d45e833b9c204eb8654429dc0177ef9029584)]
+
+
 ## [6.0.14-1](https://github.com/eea/insitu-backend/releases/tag/6.0.14-1) - 2025-04-09T13:49:03Z
 
 ### Plone
