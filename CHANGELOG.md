@@ -1,6 +1,24 @@
 # Changelog
 
 
+## [6.0.15-2](https://github.com/eea/insitu-backend/releases/tag/6.0.15-2) - 2025-04-11T17:03:16Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.15-1 ~ 6.0.15-2 
+
+##### eeacms/plone-backend:[6.0.15-2](https://github.com/eea/plone-backend/releases/tag/6.0.15-2)
+###### Dependency updates
+
+###### Removed packages
+
+###### [pas.plugins.authomatic](https://pypi.org/project/pas.plugins.authomatic/#changelog): 2.0.0rc2
+
+###### Internal
+
+- fix: TypeError: argument of type 'bool' is not iterable - refs #286733 - [Alin Voinea - [`0909018`](https://github.com/eea/plone-backend/commit/09090185584cff84b646564b5913d8608e0716f9)]
+
+
 ## [6.0.15-1](https://github.com/eea/insitu-backend/releases/tag/6.0.15-1) - 2025-04-09T16:16:28Z
 
 ### Plone
