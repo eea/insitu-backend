@@ -1,6 +1,22 @@
 # Changelog
 
 
+## [6.0.15-5](https://github.com/eea/insitu-backend/releases/tag/6.0.15-5) - 2025-04-28T16:17:33Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.15-4 ~ 6.0.15-6 
+
+##### eeacms/plone-backend:[6.0.15-6](https://github.com/eea/plone-backend/releases/tag/6.0.15-6)
+###### Internal
+
+- Update release_arm64.yml - [Eduard Fironda - [`3d9a41f`](https://github.com/eea/plone-backend/commit/3d9a41fb0bcb6d10528b0b3f3a6d967544ab5214)]
+##### eeacms/plone-backend:[6.0.15-5](https://github.com/eea/plone-backend/releases/tag/6.0.15-5)
+###### Internal
+
+- Release plone.restapi 9.13.5 - refs #287071 - [Alin Voinea - [`8f7b0c9`](https://github.com/eea/plone-backend/commit/8f7b0c9331c1a792cd248c8fd940b7f654909d44)]
+
+
 ## [6.0.15-4](https://github.com/eea/insitu-backend/releases/tag/6.0.15-4) - 2025-04-25T14:20:18Z
 
 ### Plone
