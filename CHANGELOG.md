@@ -1,6 +1,18 @@
 # Changelog
 
 
+## [6.0.15-7](https://github.com/eea/insitu-backend/releases/tag/6.0.15-7) - 2025-05-07T18:20:40Z
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 11.5 ~ 12.0
+
+* Change: Upgrade step to transform Visualizations to use resolveuid in providerurl
+  [dobri1408 - refs #279158]
+* Breaking: Refactor Visualisation
+  [razvanMiu - refs ]
+
+
 ## [6.0.15-6](https://github.com/eea/insitu-backend/releases/tag/6.0.15-6) - 2025-04-30T23:51:58Z
 
 ### Plone
