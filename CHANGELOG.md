@@ -1,6 +1,18 @@
 # Changelog
 
 
+## [6.0.15-9](https://github.com/eea/insitu-backend/releases/tag/6.0.15-9) - 2025-05-27T09:28:34Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.15-8 ~ 6.0.15-9 
+
+##### eeacms/plone-backend:[6.0.15-9](https://github.com/eea/plone-backend/releases/tag/6.0.15-9)
+###### Internal
+
+- chore: [JENKINS] remove debug - [valentinab25 - [`120747d`](https://github.com/eea/plone-backend/commit/120747d888aafb924da8483e0e7d86b97bdd3802)]
+
+
 ## [6.0.15-8](https://github.com/eea/insitu-backend/releases/tag/6.0.15-8) - 2025-05-21T13:56:02Z
 
 ### Plone
