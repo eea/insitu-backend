@@ -1,6 +1,21 @@
 # Changelog
 
 
+## [6.0.15-26](https://github.com/eea/insitu-backend/releases/tag/6.0.15-26) - 2025-08-05T08:46:16Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.15-13 ~ 6.0.15-14 
+
+##### eeacms/plone-backend:[6.0.15-14](https://github.com/eea/plone-backend/releases/tag/6.0.15-14)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 8.0 ~ 8.1
+
+* Change: fix(upgrade): for images, allowing also to run @@image-migrate script
+ [ichim-david]
+
+
 ## [6.0.15-25](https://github.com/eea/insitu-backend/releases/tag/6.0.15-25) - 2025-08-01T23:49:45Z
 
 ### Plone
