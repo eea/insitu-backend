@@ -35,9 +35,11 @@ pipeline {
     }
  
     stage('Release on tag creation') {
-      when {
-        buildingTag()
-      }
+       when {
+    buildingTag()
+    not { expression { BUILD_TAG.toLowerCase().contains('beta') } }
+    not { expression { BUILD_TAG.toLowerCase().contains('alpha') } }
+  }
       steps{
         node(label: 'docker') {
           withCredentials([string(credentialsId: 'eea-jenkins-token', variable: 'GITHUB_TOKEN'),  string(credentialsId: 'insitu-backend-trigger', variable: 'TRIGGER_MAIN_URL'), usernamePassword(credentialsId: 'jekinsdockerhub', usernameVariable: 'DOCKERHUB_USER', passwordVariable: 'DOCKERHUB_PASS')]) {
@@ -123,4 +125,5 @@ pipeline {
       }
     }
   }
+
 }
