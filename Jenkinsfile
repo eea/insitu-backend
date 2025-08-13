@@ -37,8 +37,6 @@ pipeline {
     stage('Release on tag creation') {
        when {
     buildingTag()
-    not { expression { BUILD_TAG.toLowerCase().contains('beta') } }
-    not { expression { BUILD_TAG.toLowerCase().contains('alpha') } }
   }
       steps{
         node(label: 'docker') {
@@ -127,3 +125,4 @@ pipeline {
   }
 
 }
+
