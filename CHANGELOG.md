@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.15-32](https://github.com/eea/insitu-backend/releases/tag/6.0.15-32) - 2025-08-27T23:13:41Z
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.1 ~ 12.2
+
+* Change: fix csv file data decoding
+  [razvanMiu]
+
+
 ## [6.0.15-31](https://github.com/eea/insitu-backend/releases/tag/6.0.15-31) - 2025-08-27T14:56:44Z
 
 ### Dependency updates
