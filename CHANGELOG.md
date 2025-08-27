@@ -1,6 +1,13 @@
 # Changelog
 
 
+## [6.0.15-31](https://github.com/eea/insitu-backend/releases/tag/6.0.15-31) - 2025-08-27T14:56:44Z
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://pypi.org/project/eea.api.dataconnector/#changelog): 12.0 ~ 12.1
+
+
 ## [6.0.15-30](https://github.com/eea/insitu-backend/releases/tag/6.0.15-30) - 2025-08-20T23:46:25Z
 
 ### Plone
