@@ -1,6 +1,15 @@
 # Changelog
 
 
+## [6.0.15-33](https://github.com/eea/insitu-backend/releases/tag/6.0.15-33) - 2025-08-28T09:46:01Z
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.2 ~ 12.3
+
+* Fix: Broken release
+
+
 ## [6.0.15-32](https://github.com/eea/insitu-backend/releases/tag/6.0.15-32) - 2025-08-27T23:13:41Z
 
 ### Dependency updates
