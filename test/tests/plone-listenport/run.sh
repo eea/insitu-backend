@@ -23,4 +23,4 @@ get() {
 . "$dir/../../retry.sh" --tries "$PLONE_TEST_TRIES" --sleep "$PLONE_TEST_SLEEP" get "http://plone:8081"
 
 # Plone is up and running
-[[ "$(get 'http://plone:8081')" == *"Plone is up and running"* ]]
+[[ "$(get 'http://plone:8081')" == *"Welcome to Plone!"* ]]

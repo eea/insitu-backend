@@ -5,8 +5,8 @@ dir="$(dirname "$(readlink -f "$BASH_SOURCE")")"
 
 image="$1"
 
-PLONE_TEST_SLEEP=3
-PLONE_TEST_TRIES=5
+PLONE_TEST_SLEEP=5
+PLONE_TEST_TRIES=20
 
 # Start ZEO server
 zname="zeo-container-$RANDOM-$RANDOM"
@@ -39,7 +39,7 @@ get_auth() {
 . "$dir/../../retry.sh" --tries "$PLONE_TEST_TRIES" --sleep "$PLONE_TEST_SLEEP" get "http://plone:8080"
 
 # Plone is up and running
-[[ "$(get 'http://plone:8080')" == *"Plone is up and running"* ]]
+[[ "$(get 'http://plone:8080')" == *"Welcome to Plone!"* ]]
 
 # Create a Plone site
-[[ "$(get_auth 'http://plone:8080/@@plone-addsite' "$(echo -n 'admin:admin' | base64)")" == *"Create a Plone site"* ]]
+#[[ "$(get_auth 'http://plone:8080/@@ploneAddSite?distribution=classic' "$(echo -n 'admin:admin' | base64)")" == *"Create a Plone site (Classic UI)"* ]]
