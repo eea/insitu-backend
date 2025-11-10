@@ -10,7 +10,7 @@ PLONE_TEST_TRIES=10
 
 cname="plone-container-$RANDOM-$RANDOM"
 site="Plone$RANDOM"
-cid="$(docker run -d -e SITE=$site -e TYPE=classic --name "$cname" "$image")"
+cid="$(docker run -d -e SITE=$site --name "$cname" "$image")"
 trap "docker rm -vf $cid > /dev/null" EXIT
 
 get() {
