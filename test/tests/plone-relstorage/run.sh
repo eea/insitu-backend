@@ -10,10 +10,8 @@ PLONE_TEST_TRIES=10
 
 # Start Postgres
 zname="relstorage-container-$RANDOM-$RANDOM"
-zpull="$(docker pull postgres:9-alpine)"
-zid="$(docker run -d --name "$zname" -e POSTGRES_USER=plone -e POSTGRES_PASSWORD=plone -e POSTGRES_DB=plone postgres:9-alpine)"
-
-sleep 20
+zpull="$(docker pull postgres:12-alpine)"
+zid="$(docker run -d --name "$zname" -e POSTGRES_USER=plone -e POSTGRES_PASSWORD=plone -e POSTGRES_DB=plone postgres:12-alpine)"
 
 # Start Plone as RelStorage Client
 pname="plone-container-$RANDOM-$RANDOM"
@@ -41,7 +39,7 @@ get_auth() {
 . "$dir/../../retry.sh" --tries "$PLONE_TEST_TRIES" --sleep "$PLONE_TEST_SLEEP" get "http://plone:8080"
 
 # Plone is up and running
-[[ "$(get 'http://plone:8080')" == *"Plone is up and running"* ]]
+[[ "$(get 'http://plone:8080')" == *"Welcome to Plone!"* ]]
 
 # Create a Plone site
-[[ "$(get_auth 'http://plone:8080/@@plone-addsite' "$(echo -n 'admin:admin' | base64)")" == *"Create a Plone site"* ]]
+#[[ "$(get_auth 'http://plone:8080/@@ploneAddSite?distribution=classic' "$(echo -n 'admin:admin' | base64)")" == *"Create a Plone site (Classic UI)"* ]]
