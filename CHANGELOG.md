@@ -1,6 +1,225 @@
 # Changelog
 
 
+## [6.1.3-1](https://github.com/eea/insitu-backend/releases/tag/6.1.3-1) - 2025-12-20T00:18:04Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.15-21 ~ 6.1.3-7 
+
+##### eeacms/plone-backend:[6.1.3-7](https://github.com/eea/plone-backend/releases/tag/6.1.3-7)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 9.3 ~ 10.0
+
+###### What's Changed
+* Advanced restricted block by @tedw87 in https://github.com/eea/eea.volto.policy/pull/88
+* Release 10.0 by @avoinea in https://github.com/eea/eea.volto.policy/pull/89
+
+
+**Full Changelog**: https://github.com/eea/eea.volto.policy/compare/9.3...10.0
+
+###### Internal
+
+- Release eea.volto.policy 10.0 - [Alin Voinea - [`505df34`](https://github.com/eea/plone-backend/commit/505df34459a3c50cf98ad63cdc4a6abe6f6c9c70)]
+##### eeacms/plone-backend:[6.1.3-6](https://github.com/eea/plone-backend/releases/tag/6.1.3-6)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 9.2 ~ 9.3
+
+* Fix: migration script to handle missing catalog entries for images
+ [ichim-david refs #254622]
+
+###### [pas.plugins.eea](https://pypi.org/project/pas.plugins.eea/#changelog): 1.5 ~ 1.6
+
+###### Internal
+
+- test: updated tests for 6.1.3 - refs #288125 - [Calin Vlad - [`e9884de`](https://github.com/eea/plone-backend/commit/e9884dec97f6ec1175052ca460927b0d01bff824)]
+##### eeacms/plone-backend:[6.1.3-5](https://github.com/eea/plone-backend/releases/tag/6.1.3-5)
+###### Dependency updates
+
+###### [collective.exportimport](https://pypi.org/project/collective.exportimport/#changelog): 1.12 ~ 1.15
+
+###### [pas.plugins.authomatic](https://pypi.org/project/pas.plugins.authomatic/#changelog): 2.0.0rc3 ~ 2.0.0
+
+###### [pas.plugins.ldap](https://pypi.org/project/pas.plugins.ldap/#changelog): 1.8.3 ~ 1.8.4
+
+###### [python-ldap](https://pypi.org/project/python-ldap/#changelog): 3.4.4 ~ 3.4.5
+
+###### [sentry.sdk](https://pypi.org/project/sentry.sdk/#changelog): 2.42.1 ~ 2.45.0
+
+###### Downgrades 
+
+###### [ijson](https://pypi.org/project/ijson/#changelog): 3.4.0 ~ 3.4.0.post0
+
+###### Removed packages
+
+###### [PyYAML](https://pypi.org/project/PyYAML/#changelog): 6.0.2
+
+###### [z3c.jbot](https://pypi.org/project/z3c.jbot/#changelog): 3.1
+
+###### Internal
+
+- Upgrade packages pins to the latest minor release - [Alin Voinea - [`515577d`](https://github.com/eea/plone-backend/commit/515577d355a2250e58d8f7765a9155106aad6c8b)]
+- fix: Remove duplicate package pins - [Alin Voinea - [`24ea3ac`](https://github.com/eea/plone-backend/commit/24ea3acd606241cbc509278248ff2304f911adf0)]
+##### eeacms/plone-backend:[6.1.3-4](https://github.com/eea/plone-backend/releases/tag/6.1.3-4)
+###### Dependency updates
+
+###### [eea.api.controlpanel](https://github.com/eea/eea.api.controlpanel/releases): 1.2 ~ 1.3
+
+* Change: Release
+ [avoinea]
+
+###### [eea.api.glossary](https://pypi.org/project/eea.api.glossary/#changelog): 1.5 ~ 1.6
+
+###### [eea.api.layout](https://github.com/eea/eea.api.layout/releases): 3.2 ~ 3.3
+
+* Change: Replace Python linting to ruff
+ [mihaidobrescu1111 = refs #286821]
+* Change: Add plone6 tests
+ [mihaidobrescu1111 = refs #293593]
+
+###### [eea.banner](https://github.com/eea/eea.banner/releases): 1.4 ~ 1.5
+
+* Change: Replace Python linting to ruff
+ [mihaidobrescu1111 = refs #286821]
+* Change: Add plone6 tests
+ [mihaidobrescu1111 = refs #293593]
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.6 ~ 2.7
+
+* Change: Replace Python linting to ruff
+ [mihaidobrescu1111 = refs #286821]
+* Change: Add plone6 tests
+ [mihaidobrescu1111 = refs #293593]
+
+###### [eea.kitkat](https://github.com/eea/eea.kitkat/releases): 8.2 ~ 8.3
+
+* Change: Replace Python linting to ruff
+ [mihaidobrescu1111 = refs #286821]
+* Change: Add plone6 tests
+ [mihaidobrescu1111 = refs #293593]
+
+###### [eea.schema.slate](https://github.com/eea/eea.schema.slate/releases): 1.2 ~ 1.3
+
+* Change: Replace Python linting to ruff
+ [mihaidobrescu1111 = refs #286821]
+* Change: Add plone6 tests
+ [mihaidobrescu1111 = refs #293593]
+
+###### [eea.sentry](https://github.com/eea/eea.sentry/releases): 3.0 ~ 3.1
+
+* Change: Replace Python linting to ruff
+ [mihaidobrescu1111 = refs #286821]
+* Change: Add plone6 tests
+ [mihaidobrescu1111 = refs #293593]
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 9.1 ~ 9.2
+
+* Change: Replace Python linting to ruff
+ [mihaidobrescu1111 = refs #286821]
+* Change: Add plone6 tests
+ [mihaidobrescu1111 = refs #293593]
+
+###### [eea.zotero](https://github.com/eea/eea.zotero/releases): 1.4 ~ 1.5
+
+* Change: Replace Python linting to ruff
+ [mihaidobrescu1111 = refs #286821]
+* Change: Add plone6 tests
+ [mihaidobrescu1111 = refs #293593]
+
+###### Internal
+
+- fix: Plone upgrades steps from 6.0.15 to 6.1.3 - refs #288125 - [Alin Voinea - [`33ab97d`](https://github.com/eea/plone-backend/commit/33ab97d0ea7aa73347273e1f512e488efb27db37)]
+##### eeacms/plone-backend:[6.1.3-3](https://github.com/eea/plone-backend/releases/tag/6.1.3-3)
+###### Dependency updates
+
+###### [eea.api.controlpanel](https://github.com/eea/eea.api.controlpanel/releases): 1.1 ~ 1.2
+
+* Change: Replace Python linting to ruff
+ [mihaidobrescu1111 = refs #286821]
+* Change: Add plone6 tests
+ [mihaidobrescu1111 = refs #293593]
+##### eeacms/plone-backend:[6.1.3-2](https://github.com/eea/plone-backend/releases/tag/6.1.3-2)
+###### Internal
+
+- chore(dev): use Plone 6.1.3 in dev environments - [nileshgulia1 - [`5357f4e`](https://github.com/eea/plone-backend/commit/5357f4e82fbd3a95ab28be14ba6a5cc0ace806c7)]
+- fix: provide more retries time - [nileshgulia1 - [`a409531`](https://github.com/eea/plone-backend/commit/a409531778238b04f36be8fbd63ca7ad835a79a0)]
+- fix(flaky-tests): provide more retries in tests - [nileshgulia1 - [`ea12247`](https://github.com/eea/plone-backend/commit/ea12247f43adc81b12a8d4886ab508b329314af6)]
+- fix(flaky-tests): more tests - [nileshgulia1 - [`fc467af`](https://github.com/eea/plone-backend/commit/fc467afe0f927320b8759afaaca8842282103acf)]
+##### eeacms/plone-backend:[6.1.3-1](https://github.com/eea/plone-backend/releases/tag/6.1.3-1)
+###### Plone
+
+###### Upgrade 6.0.15 ~ 6.1.3 
+
+* Plone [6.1.3](https://plone.org/download/releases/6.1.3)
+* Plone [6.1.2](https://plone.org/download/releases/6.1.2)
+* Plone [6.1.1](https://plone.org/download/releases/6.1.1)
+* Plone [6.1.1rc2](https://plone.org/download/releases/6.1.1rc2)
+* Plone [6.1.1rc1](https://plone.org/download/releases/6.1.1rc1)
+* Plone [6.1.0](https://plone.org/download/releases/6.1.0)
+* Plone [6.1.0rc1](https://plone.org/download/releases/6.1.0rc1)
+* Plone [6.1.0b2](https://plone.org/download/releases/6.1.0b2)
+* Plone [6.1.0b1](https://plone.org/download/releases/6.1.0b1)
+* Plone [6.1.0a5](https://plone.org/download/releases/6.1.0a5)
+* Plone [6.1.0a4](https://plone.org/download/releases/6.1.0a4)
+* Plone [6.1.0a3](https://plone.org/download/releases/6.1.0a3)
+* Plone [6.1.0a2](https://plone.org/download/releases/6.1.0a2)
+* Plone [6.1.0a1](https://plone.org/download/releases/6.1.0a1)
+* Plone [6.1.0a1.dev0](https://plone.org/download/releases/6.1.0a1.dev0)
+
+###### Dependency updates
+
+###### [dnspython](https://pypi.org/project/dnspython/#changelog): 2.7.0 ~ 2.8.0
+
+###### [eventlet](https://pypi.org/project/eventlet/#changelog): 0.39.1 ~ 0.40.3
+
+###### [greenlet](https://pypi.org/project/greenlet/#changelog): 3.1.1 ~ 3.2.4
+
+###### [ijson](https://pypi.org/project/ijson/#changelog): 3.3.0 ~ 3.4.0
+
+###### [yafowil.plone](https://pypi.org/project/yafowil.plone/#changelog): 5.0.0a2 ~ 5.0.0
+
+###### [z3c.jbot](https://pypi.org/project/z3c.jbot/#changelog): 2.0 ~ 3.1
+
+###### Downgrades 
+
+###### [collective.taxonomy](https://pypi.org/project/collective.taxonomy/#changelog): 3.1 ~ 3.1.7
+
+###### New packages
+
+###### [requests-futures](https://pypi.org/project/requests-futures/#changelog): 1.0.2
+
+###### [sentry.sdk](https://pypi.org/project/sentry.sdk/#changelog): 2.42.1
+
+###### Removed packages
+
+###### [pyasn1](https://pypi.org/project/pyasn1/#changelog): 0.4.2
+
+###### [pyasn1-modules](https://pypi.org/project/pyasn1-modules/#changelog): 0.4.2
+
+###### [sentry-sdk](https://pypi.org/project/sentry-sdk/#changelog): 1.45.0
+
+###### Internal
+
+- feat: Upgrade to plone 6.1.3 - [Nilesh - [`8c4663f`](https://github.com/eea/plone-backend/commit/8c4663f623dfce260c8917f025aed1907705bdd5)]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.3 ~ 12.4
+
+* Change: Replace Python linting to ruff
+  [mihaidobrescu1111 = refs #286821]
+* Change: Add plone6 tests
+  [mihaidobrescu1111 = refs #293593]
+
+### Internal
+
+- update tests - [vladcalin-edw -  [`c7f1381`](https://github.com/eea/insitu-backend/commit/c7f13819e509fe858e8ecc96620eb67a28ddbbfb)]
+- removed Type=classic - [vladcalin-edw -  [`8945b1e`](https://github.com/eea/insitu-backend/commit/8945b1e77229460f6be644e77164e8fa90d5c9e0)]
+- Merge branch 'master' of github.com:eea/insitu-backend into update-plone-6.1.3-tests - [vladcalin-edw -  [`33d4e3a`](https://github.com/eea/insitu-backend/commit/33d4e3a0203e53e90193ebbc27c106e44a56460d)]
+- updated tests - [vladcalin-edw -  [`5e9a3f0`](https://github.com/eea/insitu-backend/commit/5e9a3f00df33bb70436bd1bee5d20d2c21c76abc)]
+
 ## [6.0.15-36](https://github.com/eea/insitu-backend/releases/tag/6.0.15-36) - 2025-10-25T00:08:16Z
 
 ### Plone
