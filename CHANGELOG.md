@@ -1,6 +1,21 @@
 # Changelog
 
 
+## [6.1.3-2](https://github.com/eea/insitu-backend/releases/tag/6.1.3-2) - 2025-12-22T01:09:45Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.3-7 ~ 6.1.3-8 
+
+##### eeacms/plone-backend:[6.1.3-8](https://github.com/eea/plone-backend/releases/tag/6.1.3-8)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 10.0 ~ 11.0
+
+* Feature: Inheritable fields, for example inherit preview_image from parent if context doesn't have a preview_image
+ [razvanMiu - refs #295495]
+
+
 ## [6.1.3-1](https://github.com/eea/insitu-backend/releases/tag/6.1.3-1) - 2025-12-20T00:18:04Z
 
 ### Plone
