@@ -1,6 +1,21 @@
 # Changelog
 
 
+## [6.1.3-3](https://github.com/eea/insitu-backend/releases/tag/6.1.3-3) - 2025-12-22T10:13:55Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.3-8 ~ 6.1.3-9 
+
+##### eeacms/plone-backend:[6.1.3-9](https://github.com/eea/plone-backend/releases/tag/6.1.3-9)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 11.0 ~ 11.1
+
+* Fix: Handle NoInteraction during inherited field lookup in indexing
+ [avoinea - refs #295495]
+
+
 ## [6.1.3-2](https://github.com/eea/insitu-backend/releases/tag/6.1.3-2) - 2025-12-22T01:09:45Z
 
 ### Plone
