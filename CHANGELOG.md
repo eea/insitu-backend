@@ -1,6 +1,21 @@
 # Changelog
 
 
+## [6.1.3-4](https://github.com/eea/insitu-backend/releases/tag/6.1.3-4) - 2025-12-23T00:53:30Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.3-9 ~ 6.1.3-10 
+
+##### eeacms/plone-backend:[6.1.3-10](https://github.com/eea/plone-backend/releases/tag/6.1.3-10)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 11.1 ~ 11.2
+
+* Fix: Index image scales with relative_path to context
+ [avoinea - refs #295495]
+
+
 ## [6.1.3-3](https://github.com/eea/insitu-backend/releases/tag/6.1.3-3) - 2025-12-22T10:13:55Z
 
 ### Plone
