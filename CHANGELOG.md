@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.1.3-5](https://github.com/eea/insitu-backend/releases/tag/6.1.3-5) - 2026-01-28T00:17:56Z
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.4 ~ 12.5
+
+* Change: Release
+  [laszlocseh]
+
+
 ## [6.1.3-4](https://github.com/eea/insitu-backend/releases/tag/6.1.3-4) - 2025-12-23T00:53:30Z
 
 ### Plone
