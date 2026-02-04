@@ -1,6 +1,18 @@
 # Changelog
 
 
+## [6.1.3-7](https://github.com/eea/insitu-backend/releases/tag/6.1.3-7) - 2026-02-04T00:16:30Z
+
+### Dependency updates
+
+#### Removed packages
+
+##### [collective.regenv](https://pypi.org/project/collective.regenv/#changelog): 1.0.0
+
+### Internal
+
+- Remove addons from constraints and requirements since they are already in plone-backend - [Teodor -  [`ceb657e`](https://github.com/eea/insitu-backend/commit/ceb657e328f0d2822ec2ebb80b99179d9287a446)]
+
 ## [6.1.3-6](https://github.com/eea/insitu-backend/releases/tag/6.1.3-6) - 2026-01-28T14:18:53Z
 
 ### Plone
