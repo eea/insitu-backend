@@ -1,6 +1,18 @@
 # Changelog
 
 
+## [6.1.3-8](https://github.com/eea/insitu-backend/releases/tag/6.1.3-8) - 2026-02-06T01:00:19Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.3-11 ~ 6.1.3-12 
+
+##### eeacms/plone-backend:[6.1.3-12](https://github.com/eea/plone-backend/releases/tag/6.1.3-12)
+###### Dependency updates
+
+###### [pas.plugins.eea](https://pypi.org/project/pas.plugins.eea/#changelog): 1.5 ~ 1.7
+
+
 ## [6.1.3-7](https://github.com/eea/insitu-backend/releases/tag/6.1.3-7) - 2026-02-04T00:16:30Z
 
 ### Dependency updates
