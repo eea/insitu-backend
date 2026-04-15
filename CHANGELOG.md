@@ -1,6 +1,48 @@
 # Changelog
 
 
+## [6.1.3-13](https://github.com/eea/insitu-backend/releases/tag/6.1.3-13) - 2026-04-15T00:16:23Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.3-16 ~ 6.1.3-17 
+
+##### eeacms/plone-backend:[6.1.3-17](https://github.com/eea/plone-backend/releases/tag/6.1.3-17)
+###### Dependency updates
+
+###### [eea.api.layout](https://github.com/eea/eea.api.layout/releases): 3.3 ~ 3.4
+
+* Change: Add unit tests for serializer blocks logic
+ [avoinea]
+
+###### [eea.banner](https://github.com/eea/eea.banner/releases): 1.5 ~ 1.7
+
+* Change: Add unit tests for isTrue function
+ [avoinea]
+
+* Change: Add unit tests for isTrue function
+ [avoinea]
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.7 ~ 2.8
+
+* Change: feat: Add integration tests for @geolocation REST API views
+ [avoinea]
+
+###### [eea.kitkat](https://github.com/eea/eea.kitkat/releases): 8.3 ~ 8.4
+
+* Change: Add integration tests for captchakey and CaptchaVerify
+ [avoinea]
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 11.4 ~ 12.0
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.5 ~ 12.6
+
+* Change: Add unit tests for queryparser and queryfilter modules
+  [avoinea]
+
+
 ## [6.1.3-12](https://github.com/eea/insitu-backend/releases/tag/6.1.3-12) - 2026-03-26T01:22:19Z
 
 ### Plone
