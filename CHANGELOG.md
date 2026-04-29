@@ -1,6 +1,21 @@
 # Changelog
 
 
+## [6.1.4-2](https://github.com/eea/insitu-backend/releases/tag/6.1.4-2) - 2026-04-29T15:18:52Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-1 ~ 6.1.4-2 
+
+##### eeacms/plone-backend:[6.1.4-2](https://github.com/eea/plone-backend/releases/tag/6.1.4-2)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 12.3 ~ 12.4
+
+* Change: Cleanup printf - TeaserBlockSerializerBase._process_data called
+ [avoinea]
+
+
 ## [6.1.4-1](https://github.com/eea/insitu-backend/releases/tag/6.1.4-1) - 2026-04-29T08:47:49Z
 
 ### Plone
