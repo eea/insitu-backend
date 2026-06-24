@@ -1,6 +1,12 @@
 # Changelog
 
 
+## [6.1.4-9](https://github.com/eea/insitu-backend/releases/tag/6.1.4-9) - 2026-06-24T16:46:47Z
+
+### Internal
+
+- test: increase retrys on tests - [valentinab25 -  [`af3ef21`](https://github.com/eea/insitu-backend/commit/af3ef213e6633aef77996b7816fbc1a997f00614)]
+
 ## [6.1.4-8](https://github.com/eea/insitu-backend/releases/tag/6.1.4-8) - 2026-06-18T08:10:37Z
 
 ### Plone
