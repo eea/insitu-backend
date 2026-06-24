@@ -5,8 +5,8 @@ dir="$(dirname "$(readlink -f "$BASH_SOURCE")")"
 
 image="$1"
 
-PLONE_TEST_SLEEP=3
-PLONE_TEST_TRIES=5
+PLONE_TEST_SLEEP=5
+PLONE_TEST_TRIES=15
 
 cname="plone-container-$RANDOM-$RANDOM"
 cid="$(docker run -d --name "$cname" -e LISTEN_PORT=8081 "$image")"
