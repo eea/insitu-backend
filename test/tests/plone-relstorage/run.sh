@@ -11,11 +11,11 @@ PLONE_TEST_TRIES=10
 # Start Postgres
 zname="relstorage-container-$RANDOM-$RANDOM"
 zpull="$(docker pull postgres:12-alpine)"
-zid="$(docker run -d --name "$zname" -e POSTGRES_USER=plone -e POSTGRES_PASSWORD=plone -e POSTGRES_DB=plone postgres:12-alpine)"
+zid="$(docker run -d --name "$zname" -e POSTGRES_USER=plone -e POSTGRES_PASSWORD=plone -e POSTGRES_DB=plone postgres:12-alpine)" #betterleaks:allow
 
 # Start Plone as RelStorage Client
 pname="plone-container-$RANDOM-$RANDOM"
-pid="$(docker run -d --name "$pname" --link=$zname:db -e RELSTORAGE_DSN="dbname='plone' user='plone' host='db' password='plone'" "$image")"
+pid="$(docker run -d --name "$pname" --link=$zname:db -e RELSTORAGE_DSN="dbname='plone' user='plone' host='db' password='plone'" "$image")" #betterleaks:allow
 
 # Tear down
 trap "docker rm -vf $pid $zid > /dev/null" EXIT
