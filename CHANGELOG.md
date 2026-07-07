@@ -1,6 +1,22 @@
 # Changelog
 
 
+## [6.1.4-12](https://github.com/eea/insitu-backend/releases/tag/6.1.4-12) - 2026-07-07T13:18:22Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-8 ~ 6.1.4-9 
+
+##### eeacms/plone-backend:[6.1.4-9](https://github.com/eea/plone-backend/releases/tag/6.1.4-9)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 13.0 ~ 13.1
+
+* Fix: Normalize internal backend URLs (e.g. backend:8080) saved in volto blocks
+ by SSR to avoid broken links. Add unit tests for URL normalizer.
+ [razvanMiu - refs #305419]
+
+
 ## [6.1.4-11](https://github.com/eea/insitu-backend/releases/tag/6.1.4-11) - 2026-07-05T00:11:48Z
 
 ### Plone
