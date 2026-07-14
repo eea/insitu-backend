@@ -1,6 +1,26 @@
 # Changelog
 
 
+## [6.1.4-15](https://github.com/eea/insitu-backend/releases/tag/6.1.4-15) - 2026-07-14T23:24:57Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-11 ~ 6.1.4-12 
+
+##### eeacms/plone-backend:[6.1.4-12](https://github.com/eea/plone-backend/releases/tag/6.1.4-12)
+###### Dependency updates
+
+###### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 6.1 ~ 6.2
+
+* Change: Replace the generated Publication type taxonomy field with the
+ dedicated ``publication_type`` behavior and migrate its catalog and
+ search configuration.
+ [dobri1408]
+
+### Internal
+
+- fix: Add betterleaks github action - refs #304517 - [dobri1408 -  [`92cd1e1`](https://github.com/eea/insitu-backend/commit/92cd1e18ef36f5d17281dedc6514bf5892b1b1be)]
+
 ## [6.1.4-14](https://github.com/eea/insitu-backend/releases/tag/6.1.4-14) - 2026-07-14T00:04:22Z
 
 ### Plone
