@@ -1,6 +1,22 @@
 # Changelog
 
 
+## [6.1.4-17](https://github.com/eea/insitu-backend/releases/tag/6.1.4-17) - 2026-08-06T00:32:11Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-13 ~ 6.1.4-14 
+
+##### eeacms/plone-backend:[6.1.4-14](https://github.com/eea/plone-backend/releases/tag/6.1.4-14)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 13.3 ~ 13.4
+
+* Fix: Override ``@@download`` view to return 404 instead of TypeError (500)
+ when the content type has no primary file field.
+ [avoinea - refs #306552]
+
+
 ## [6.1.4-16](https://github.com/eea/insitu-backend/releases/tag/6.1.4-16) - 2026-07-29T00:20:09Z
 
 ### Plone
