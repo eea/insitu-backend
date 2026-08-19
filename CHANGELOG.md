@@ -1,6 +1,33 @@
 # Changelog
 
 
+## [6.1.4-20](https://github.com/eea/insitu-backend/releases/tag/6.1.4-20) - 2026-08-19T00:10:54Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-16 ~ 6.1.4-17 
+
+##### eeacms/plone-backend:[6.1.4-17](https://github.com/eea/plone-backend/releases/tag/6.1.4-17)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 13.4 ~ 13.6
+
+* Change: Release Move @siblings endpoint from eea.restapi to eea.volto.policy (#123)
+ [avoinea]
+
+* Change: Own the global ``plone.memoize`` cache chooser and its Redis,
+ Memcached, and RAM backends.
+ [razvanMiu]
+
+###### New packages
+
+###### [redis](https://pypi.org/project/redis/#changelog): 8.1.0
+
+###### Internal
+
+- Add redis==8.1.0 - [Alin Voinea - [`b3f4401`](https://github.com/eea/plone-backend/commit/b3f4401bf365e811a648ceaadade2426eda60049)]
+
+
 ## [6.1.4-19](https://github.com/eea/insitu-backend/releases/tag/6.1.4-19) - 2026-08-08T00:22:37Z
 
 ### Plone
