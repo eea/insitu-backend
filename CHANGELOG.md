@@ -1,6 +1,38 @@
 # Changelog
 
 
+## [6.1.4-21](https://github.com/eea/insitu-backend/releases/tag/6.1.4-21) - 2026-08-20T00:09:47Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-17 ~ 6.1.4-18 
+
+##### eeacms/plone-backend:[6.1.4-18](https://github.com/eea/plone-backend/releases/tag/6.1.4-18)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 13.6 ~ 13.7
+
+* Fix: Apply ``CACHE_TTL`` consistently to the RAM fallback as well as Redis
+ and Memcached.
+ [razvanMiu]
+
+### Dependency updates
+
+##### [eea.api.dataconnector](https://github.com/eea/eea.api.dataconnector/releases): 12.9 ~ 13.0
+
+* Fix: Invalidate memoized connector data when provider content changes; TTL
+  continues to bound staleness of external data sources.
+  [razvanMiu]
+* Fix: normalize empty connector-data responses and validate virtual-page
+  preload envelopes.
+  [razvanMiu]
+* Change: document connector payload as public SSR request identity metadata.
+  [razvanMiu]
+* Change: Move the global ``plone.memoize`` cache policy to
+  ``eea.volto.policy``.
+  [razvanMiu]
+
+
 ## [6.1.4-20](https://github.com/eea/insitu-backend/releases/tag/6.1.4-20) - 2026-08-19T00:10:54Z
 
 ### Plone
