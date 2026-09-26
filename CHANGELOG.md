@@ -1,6 +1,23 @@
 # Changelog
 
 
+## [6.1.4-23](https://github.com/eea/insitu-backend/releases/tag/6.1.4-23) - 2026-09-26T00:30:43Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-19 ~ 6.1.4-20 
+
+##### eeacms/plone-backend:[6.1.4-20](https://github.com/eea/plone-backend/releases/tag/6.1.4-20)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 13.7 ~ 13.8
+
+* Change: Add Subsite Behaviour, Expose main logo setting in Subsite REST response
+ [tedw87]
+* Feature: Add support for sort_on and sort_order through portal_actions
+ [nileshgulia1]
+
+
 ## [6.1.4-22](https://github.com/eea/insitu-backend/releases/tag/6.1.4-22) - 2026-09-18T14:23:44Z
 
 ### Plone
