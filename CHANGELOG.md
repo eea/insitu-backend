@@ -1,6 +1,21 @@
 # Changelog
 
 
+## [6.1.4-24](https://github.com/eea/insitu-backend/releases/tag/6.1.4-24) - 2026-09-29T23:22:33Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-20 ~ 6.1.4-21 
+
+##### eeacms/plone-backend:[6.1.4-21](https://github.com/eea/plone-backend/releases/tag/6.1.4-21)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 13.8 ~ 13.9
+
+* Change: Release - Restore subsite expansion adapter for subsite_logo_main
+ [tedw87]
+
+
 ## [6.1.4-23](https://github.com/eea/insitu-backend/releases/tag/6.1.4-23) - 2026-09-26T00:30:43Z
 
 ### Plone
