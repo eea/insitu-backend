@@ -1,6 +1,21 @@
 # Changelog
 
 
+## [6.1.4-25](https://github.com/eea/insitu-backend/releases/tag/6.1.4-25) - 2026-10-01T00:07:27Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-21 ~ 6.1.4-22 
+
+##### eeacms/plone-backend:[6.1.4-22](https://github.com/eea/plone-backend/releases/tag/6.1.4-22)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 13.9 ~ 14.0
+
+* Change: Revert to no subsite logo behavior, not needed 
+ [tedw87]
+
+
 ## [6.1.4-24](https://github.com/eea/insitu-backend/releases/tag/6.1.4-24) - 2026-09-29T23:22:33Z
 
 ### Plone
