@@ -1,6 +1,65 @@
 # Changelog
 
 
+## [6.1.5-1](https://github.com/eea/insitu-backend/releases/tag/6.1.5-1) - 2026-10-30T11:42:56Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-24 ~ 6.1.5-1 
+
+##### eeacms/plone-backend:[6.1.5-1](https://github.com/eea/plone-backend/releases/tag/6.1.5-1)
+###### Plone
+
+###### Upgrade 6.1.4 ~ 6.1.5 
+
+* Plone [6.1.5](https://plone.org/download/releases/6.1.5)
+
+###### Dependency updates
+
+###### [collective.exportimport](https://pypi.org/project/collective.exportimport/#changelog): 1.15 ~ 1.16
+
+###### [dnspython](https://pypi.org/project/dnspython/#changelog): 2.8.0 ~ 2.9.1
+
+###### [eventlet](https://pypi.org/project/eventlet/#changelog): 0.41.0 ~ 0.41.3
+
+###### [greenlet](https://pypi.org/project/greenlet/#changelog): 3.5.0 ~ 3.5.6
+
+###### [ijson](https://pypi.org/project/ijson/#changelog): 3.5.0 ~ 3.6.0
+
+###### [pyasn1](https://pypi.org/project/pyasn1/#changelog): 0.6.3 ~ 0.6.5
+
+###### [python-ldap](https://pypi.org/project/python-ldap/#changelog): 3.4.5 ~ 3.4.8
+
+###### [requests-futures](https://pypi.org/project/requests-futures/#changelog): 1.0.2 ~ 1.1.0
+
+###### [sentry-sdk](https://pypi.org/project/sentry-sdk/#changelog): 2.58.0 ~ 2.73.0
+
+###### Internal
+
+- Upgrade Plone backend to 6.1.5 (#14)
+
+* Upgrade Plone backend to 6.1.5
+
+Base image plone/plone-backend:6.1.5 (last maintenance release of the 6.1 series).
+
+Drop the explicit Products.isurlinportal==3.1.0 install: Plone 6.1.5 already
+ships 3.1.0 (verified on the built image), so the security fix from the
+20260302 advisory now comes from the base image.
+
+* Upgrade picked pins
+
+Patch/minor bumps within the same major:
+python-ldap 3.4.5 -> 3.4.8, collective.exportimport 1.15 -> 1.16,
+amqp 5.3.1 -> 5.4.1, dnspython 2.8.0 -> 2.9.1, eventlet 0.41.0 -> 0.41.3,
+greenlet 3.5.0 -> 3.5.6, ijson 3.5.0 -> 3.6.0, pyasn1 0.6.3 -> 0.6.5,
+requests-futures 1.0.2 -> 1.1.0, sentry-sdk 2.58.0 -> 2.73.0.
+
+Held back on purpose:
+- elasticsearch 8.x / elastic-transport 8.x (9.x requires an ES 9 server)
+- yafowil stack 4.x (must be upgraded together with pas.plugins.*)
+- collective.taxonomy==3.1.8dev1 (collective/collective.taxonomy#172 still open) - [Alin Voinea - [`d2f7142`](https://github.com/eea/plone-backend/commit/d2f71424773f0fc57d1e42a25df7c26e4a40536b)]
+
+
 ## [6.1.4-27](https://github.com/eea/insitu-backend/releases/tag/6.1.4-27) - 2026-10-30T00:32:56Z
 
 ### Plone
