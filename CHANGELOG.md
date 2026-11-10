@@ -1,6 +1,38 @@
 # Changelog
 
 
+## [6.1.6-1](https://github.com/eea/insitu-backend/releases/tag/6.1.6-1) - 2026-11-10T20:08:39Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.5-1 ~ 6.1.6-1 
+
+##### eeacms/plone-backend:[6.1.6-1](https://github.com/eea/plone-backend/releases/tag/6.1.6-1)
+###### Plone
+
+###### Upgrade 6.1.5 ~ 6.1.6 
+
+* Plone [6.1.6](https://plone.org/download/releases/6.1.6)
+
+###### Internal
+
+- Upgrade Plone backend to 6.1.6
+
+Base image plone/plone-backend:6.1.6, fixing the 20261110 remote code
+execution advisory. Verified on the built image: Products.CMFPlone 6.1.6,
+Products.CMFEditions 4.0.7, Products.MimetypesRegistry 3.0.2,
+plone.batching 2.0.8, plone.restapi 9.15.8 -- the versions named in the
+advisory -- plus AccessControl 7.3 -> 7.7 and RestrictedPython 8.3 -> 9.0,
+whose guarded_sorted/guarded_tuple/guarded_bytes keep bytes/sorted/tuple/zip
+available to restricted code.
+
+No conflicts between constraints.txt and the 6.1.6 dist constraints.
+Full container test suite: 11/11 passed on the built image.
+
+Held back on purpose:
+- collective.taxonomy==3.1.8dev1 (collective/collective.taxonomy#172 open) - [Alin Voinea - [`3134e39`](https://github.com/eea/plone-backend/commit/3134e39fd2f1e59a0f9b56c1f5484485cd619f50)]
+
+
 ## [6.1.5-1](https://github.com/eea/insitu-backend/releases/tag/6.1.5-1) - 2026-10-30T11:42:56Z
 
 ### Plone
