@@ -1,6 +1,21 @@
 # Changelog
 
 
+## [6.1.6-2](https://github.com/eea/insitu-backend/releases/tag/6.1.6-2) - 2026-11-12T00:31:56Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.6-1 ~ 6.1.6-2 
+
+##### eeacms/plone-backend:[6.1.6-2](https://github.com/eea/plone-backend/releases/tag/6.1.6-2)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 14.2 ~ 14.3
+
+* Change: Support composed image metadata and alt provenance in image blocks - refs #305021
+ [razvanMiu]
+
+
 ## [6.1.6-1](https://github.com/eea/insitu-backend/releases/tag/6.1.6-1) - 2026-11-10T20:08:39Z
 
 ### Plone
